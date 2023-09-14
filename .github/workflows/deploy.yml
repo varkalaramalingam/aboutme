@@ -2,6 +2,7 @@ name: Deploy
 on:
   push:
     branches: mian
+  workflow_dispatch:
 jobs:
   Deploy:
     name: Deploy to EC2
